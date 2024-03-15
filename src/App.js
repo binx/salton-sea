@@ -14,17 +14,33 @@ function App() {
     <div className="wrapper">
       <h1>the incredible shrinking salton sea</h1>
       <div className="legend">
+        <div className="dot" style={{ backgroundColor: "#FA8900" }}>
+          2024 shoreline
+        </div>
+        <div className="dot" style={{ backgroundColor: "#FAED49" }}>
+          2023 shoreline
+        </div>
         <div className="dot" style={{ backgroundColor: "#87E5E1" }}>
           2007 bathymetry survey
         </div>
-        <div className="dot" style={{ backgroundColor: "#FAED49" }}>
-          2023 irondad's run
-        </div>
-        <div className="dot" style={{ backgroundColor: "#FA8900" }}>
-          2024 irondad's run
-        </div>
       </div>
       <div ref={mapContainer} className="map-container" />
+      <div className="credits">
+        <p>
+          Site development by <a href="https://rachelbinx.com">Rachel Binx</a>
+        </p>
+        <p>
+          2024 & 2023 shore outlines are from{" "}
+          <a href="https://iamirondad.com/salton-sea-run/">Irondad</a>, who logs
+          a run around the sea annually.
+        </p>
+        <p>
+          Bathymetry data is from a 2007 survey by the{" "}
+          <a href="https://map.dfg.ca.gov/metadata/ds0426.html">
+            California Dept of Fish and Wildlife
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

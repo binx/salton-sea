@@ -33,6 +33,13 @@ h1 {
 .legend {
   text-align: center;
 }
+.credits {
+  margin: 20px;
+  text-align: center;
+}
+.credits a {
+  color: black;
+}
 
 @media screen and (max-width: 768px) {
   h1 {
