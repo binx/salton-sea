@@ -21,6 +21,9 @@ function App() {
           2023 shoreline
         </div>
         <div className="dot" style={{ backgroundColor: "#87E5E1" }}>
+          2007 shoreline
+        </div>
+        <div className="dot" style={{ backgroundColor: "#def" }}>
           2007 bathymetry survey
         </div>
       </div>

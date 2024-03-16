@@ -28,6 +28,7 @@ h1 {
   text-align: center;
   font-size: 60px;
   line-height: 80px;
+  letter-spacing: 1px;
 }
 
 .legend {
@@ -45,5 +46,6 @@ h1 {
   h1 {
     font-size: 40px;
     line-height: 45px;
+    letter-spacing: normal;
   }
 }
