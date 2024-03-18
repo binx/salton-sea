@@ -31,6 +31,12 @@ export function loadMap(map, mapContainer) {
     fadeDuration: 0,
   });
 
+  map.current.setMinZoom(8);
+  map.current.setMaxBounds([
+    [-116.93090241041415, 32.56316264931766],
+    [-114.92595484541746, 33.98296353112972],
+  ]);
+
   map.current.on("load", () => {
     if (!map.current.getSource("bathymetry")) {
       map.current.addSource("bathymetry", {
