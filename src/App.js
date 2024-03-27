@@ -29,6 +29,7 @@ function App() {
       </div>
       <div ref={mapContainer} className="map-container" />
       <div className="credits">
+      
         <p>
           Site development by <a href="https://rachelbinx.com">Rachel Binx</a>
         </p>
@@ -42,6 +43,9 @@ function App() {
           <a href="https://map.dfg.ca.gov/metadata/ds0426.html">
             California Dept of Fish and Wildlife
           </a>
+        </p>
+        <p>
+          Learn more about Bombay Beach <a href="https://docs.google.com/presentation/d/1-dbpDSpNh1r_1_Gv8-nYp3nx6hYEqp6lNUoTnJJyLaU/edit#slide=id.g4ecfee3f72_0_154">here</a>.</p>
         </p>
       </div>
     </div>

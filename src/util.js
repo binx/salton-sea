@@ -13,20 +13,11 @@ export function loadMap(map, mapContainer) {
   //   [-115.53707, 32.33173],
   // ];
 
-  // const xMax = bathymetry.geometries.filter((d) => d.coordinates.length < 10);
-  // console.log(JSON.stringify(xMax));
-  // // .sort((a, b) => {
-  // //   return max(a.coordinates, (e) => e[0]) - max(b.coordinates, (e) => e[0]);
-  // // })[0];
-  // // const xMin = min(bathymetry.geometries, (d) =>
-  // //   min(d.coordinates, (e) => e[0])
-  // // );
-
   map.current = new mapboxgl.Map({
     container: mapContainer.current,
     // style: "mapbox://styles/binx/cleyiayif000101r4z2u9y49q",
     style: "mapbox://styles/binx/cll6naxz200mc01p4dayrhbym",
-    center: [-115.8, 33.4], // starting position [lng, lat]
+    center: [-115.8, 33.4],
     zoom: 9,
     fadeDuration: 0,
   });
