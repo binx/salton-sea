@@ -135,7 +135,7 @@ export function loadMap(map, mapContainer) {
           "line-cap": "round",
         },
         paint: {
-          "line-color": "#D35400",
+          "line-color": "#DD5800",
           "line-width": 6,
         },
       });

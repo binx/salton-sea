@@ -14,7 +14,7 @@ function App() {
     <div className="wrapper">
       <h1>the incredible shrinking salton sea</h1>
       <div className="legend">
-        <div className="dot" style={{ backgroundColor: "#D35400" }}>
+        <div className="dot" style={{ backgroundColor: "#DD5800" }}>
           2025 shoreline
         </div>
         <div className="dot" style={{ backgroundColor: "#FA8900" }}>
