@@ -14,6 +14,9 @@ function App() {
     <div className="wrapper">
       <h1>the incredible shrinking salton sea</h1>
       <div className="legend">
+        <div className="dot" style={{ backgroundColor: "#D35400" }}>
+          2025 shoreline
+        </div>
         <div className="dot" style={{ backgroundColor: "#FA8900" }}>
           2024 shoreline
         </div>
@@ -29,7 +32,6 @@ function App() {
       </div>
       <div ref={mapContainer} className="map-container" />
       <div className="credits">
-      
         <p>
           Site development by <a href="https://rachelbinx.com">Rachel Binx</a>
         </p>
@@ -45,7 +47,11 @@ function App() {
           </a>
         </p>
         <p>
-          Learn more about Bombay Beach <a href="https://docs.google.com/presentation/d/1-dbpDSpNh1r_1_Gv8-nYp3nx6hYEqp6lNUoTnJJyLaU/edit#slide=id.g4ecfee3f72_0_154">here</a>.</p>
+          Learn more about Bombay Beach{" "}
+          <a href="https://docs.google.com/presentation/d/1-dbpDSpNh1r_1_Gv8-nYp3nx6hYEqp6lNUoTnJJyLaU/edit#slide=id.g4ecfee3f72_0_154">
+            here
+          </a>
+          .
         </p>
       </div>
     </div>

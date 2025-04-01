@@ -4,6 +4,7 @@ import bathymetry from "./2007.json";
 import line2007 from "./2007-outline.json";
 import line2024 from "./2024-simple.json";
 import line2023 from "./2023-simple.json";
+import line2025 from "./2025.json";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
@@ -114,6 +115,27 @@ export function loadMap(map, mapContainer) {
         },
         paint: {
           "line-color": "#FA8900",
+          "line-width": 6,
+        },
+      });
+    }
+
+    if (!map.current.getSource("line2025")) {
+      map.current.addSource("line2025", {
+        type: "geojson",
+        data: line2025,
+      });
+
+      map.current.addLayer({
+        id: "line2025",
+        type: "line",
+        source: "line2025",
+        layout: {
+          "line-join": "round",
+          "line-cap": "round",
+        },
+        paint: {
+          "line-color": "#D35400",
           "line-width": 6,
         },
       });
