@@ -36,7 +36,7 @@ function App() {
           Site development by <a href="https://rachelbinx.com">Rachel Binx</a>
         </p>
         <p>
-          2024 & 2023 shore outlines are from{" "}
+          2025, 2024, & 2023 shore outlines are from{" "}
           <a href="https://iamirondad.com/salton-sea-run/">Irondad</a>, who logs
           a run around the sea annually.
         </p>
